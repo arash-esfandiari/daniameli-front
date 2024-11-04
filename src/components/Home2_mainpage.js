@@ -5,7 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import FadeIn from 'react-fade-in';
 import CarouselPage2 from './banner/Home2_banner';
-// import { FloatingWhatsApp } from 'react-floating-whatsapp'
+
 
 export class Home2_mainpage extends Component {
   render() {
@@ -52,14 +52,6 @@ export class Home2_mainpage extends Component {
     };
     return (
       <div className="site-main">
-        {/* <FloatingWhatsApp
-          phoneNumber="+491608910049"
-          accountName="Daniameli"
-          avatar='images/favicon.png'
-          allowEsc
-          notification
-          notificationSound
-        /> */}
         <section className="ttm-row aboutus-section-style2 clearfix">
           <div className="container-xl">
             <div className="row no-gutters align-items-center">{/* row */}

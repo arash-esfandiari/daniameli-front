@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { createBrowserHistory } from 'history';
-import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -45,6 +45,7 @@ import Cart from './components/shop/Cart';
 import Checkout from './components/shop/Checkout';
 import ScrollToTop from './components/layout/Gotop';
 
+
 const appHistory = {
   basename: process.env.PUBLIC_URL
 };
@@ -53,6 +54,7 @@ function App() {
 
   return (
     <div className="page">
+
       <Router>
         <div id="preloader">
           <div id="status">&nbsp;</div>
