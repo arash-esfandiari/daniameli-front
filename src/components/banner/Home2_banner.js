@@ -41,7 +41,7 @@ export class CarouselPage2 extends Component {
                                             </MDBAnimation>
                                         </div>
                                         <div className="d-inline-block effect position-relative">
-                                            <img className="img-fluid rounded" src="images/furnace1bordered.png" alt="First slide" />
+                                            <img className="img-fluid rounded" src="images/furnace1bordered.webp" alt="First slide" />
                                             <span></span>
                                             <span></span>
                                             <span>
@@ -77,7 +77,7 @@ export class CarouselPage2 extends Component {
                                             </MDBAnimation>
                                         </div>
                                         <div className="d-inline-block effect position-relative">
-                                            <img className="img-fluid" src="images/rolling.png" alt="First slide" />
+                                            <img className="img-fluid" src="images/rolling.webp" alt="First slide" loading="lazy" />
                                         </div>
                                     </div>
                                 </MDBCarouselCaption>

@@ -4,7 +4,6 @@ import CountUp from 'react-countup';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import FadeIn from 'react-fade-in';
-import CarouselPage2 from './banner/Home2_banner';
 
 
 export class Home2_mainpage extends Component {
@@ -58,7 +57,7 @@ export class Home2_mainpage extends Component {
               <div className="col-lg-6 res-991-text-center res-991-mb-40">
                 {/* ttm_single_image-wrapper */}
                 <div className="ttm_single_image-wrapper">
-                  <img className="img-fluid" src="images/crane.jpg" title="single-img-two" alt="single-img-two" />
+                  <img className="img-fluid" src="images/crane.jpg" title="single-img-two" alt="single-img-two" loading="lazy" />
                 </div>{/* ttm_single_image-wrapper end */}
               </div>
               <div className="col-lg-6">
@@ -361,7 +360,7 @@ export class Home2_mainpage extends Component {
                   </div>
                 </div>
                 {/* Responsive View image */}
-                <img src="https://via.placeholder.com/1200X628/444444.jpg" className="img-fluid ttm-equal-height-image" alt="col-bgimage-3" />
+                <img src="https://via.placeholder.com/1200X628/444444.jpg" className="img-fluid ttm-equal-height-image" alt="col-bgimage-3" loading='lazy' />
               </div>
               <div className="col-lg-9">
                 <div className="ttm-bgcolor-skincolor ttm-bg ttm-col-bgcolor-yes ttm-right-span">
@@ -444,7 +443,7 @@ export class Home2_mainpage extends Component {
                                 <div className="grey-border res-991-mt-30 text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="crane.jpg" title="single-img-three" alt="single-img-three" />
+                                    <img className="img-fluid grey-boder" src="crane.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -458,7 +457,7 @@ export class Home2_mainpage extends Component {
                                 <div className="grey-border text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" />
+                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -530,7 +529,7 @@ export class Home2_mainpage extends Component {
                                 <div className="grey-border res-991-mt-30 text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" />
+                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -544,7 +543,7 @@ export class Home2_mainpage extends Component {
                                 <div className="grey-border text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" />
+                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -616,7 +615,7 @@ export class Home2_mainpage extends Component {
                                 <div className="grey-border res-991-mt-30 text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" />
+                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -653,7 +652,7 @@ export class Home2_mainpage extends Component {
                           <div className="testimonial-content">{/* testimonials-content */}
                             <div className="testimonial-avatar">
                               <div className="testimonial-img">{/* testimonials-img */}
-                                <img className="img-center" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" />
+                                <img className="img-center" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" loading='lazy' />
                               </div>
                             </div>
                             <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
@@ -676,7 +675,7 @@ export class Home2_mainpage extends Component {
                           <div className="testimonial-content">{/* testimonials-content */}
                             <div className="testimonial-avatar">
                               <div className="testimonial-img">{/* testimonials-img */}
-                                <img className="img-center lazyloaded" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" />
+                                <img className="img-center lazyloaded" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" loading='lazy' />
                               </div>
                             </div>
                             <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
@@ -699,7 +698,7 @@ export class Home2_mainpage extends Component {
                           <div className="testimonial-content">{/* testimonials-content */}
                             <div className="testimonial-avatar">
                               <div className="testimonial-img">{/* testimonials-img */}
-                                <img className="img-center lazyloaded" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" />
+                                <img className="img-center lazyloaded" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" loading='lazy' />
                               </div>
                             </div>
                             <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
@@ -751,7 +750,7 @@ export class Home2_mainpage extends Component {
                 <div className="position-relative res-991-mt-30">
                   {/* ttm_single_image-wrapper */}
                   <div className="ttm_single_image-wrapper text-right">
-                    <img className="img-fluid" src="https://via.placeholder.com/434X668/444444.jpg" title="single-img-four" alt="single-img-four" />
+                    <img className="img-fluid" src="https://via.placeholder.com/434X668/444444.jpg" title="single-img-four" alt="single-img-four" loading='lazy' />
                   </div>{/* ttm_single_image-wrapper end */}
                   <div className="ttm-highlight-fid-style-1">
                     {/*ttm-fid*/}
@@ -829,7 +828,7 @@ export class Home2_mainpage extends Component {
                 <div className="featured-imagebox featured-imagebox-portfolio style2">
                   {/* featured-thumbnail */}
                   <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="image" />
+                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
                   </div>{/* featured-thumbnail end*/}
                   <div className="featured-content">
                     <div className="category">
@@ -846,7 +845,7 @@ export class Home2_mainpage extends Component {
                 <div className="featured-imagebox featured-imagebox-portfolio style2">
                   {/* featured-thumbnail */}
                   <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="image" />
+                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
                   </div>{/* featured-thumbnail end*/}
                   <div className="featured-content">
                     <div className="category">
@@ -863,7 +862,7 @@ export class Home2_mainpage extends Component {
                 <div className="featured-imagebox featured-imagebox-portfolio style2">
                   {/* featured-thumbnail */}
                   <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="image" />
+                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
                   </div>{/* featured-thumbnail end*/}
                   <div className="featured-content">
                     <div className="category">
@@ -880,7 +879,7 @@ export class Home2_mainpage extends Component {
                 <div className="featured-imagebox featured-imagebox-portfolio style2">
                   {/* featured-thumbnail */}
                   <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="image" />
+                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
                   </div>{/* featured-thumbnail end*/}
                   <div className="featured-content">
                     <div className="category">
@@ -897,7 +896,7 @@ export class Home2_mainpage extends Component {
                 <div className="featured-imagebox featured-imagebox-portfolio style2">
                   {/* featured-thumbnail */}
                   <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="image" />
+                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
                   </div>{/* featured-thumbnail end*/}
                   <div className="featured-content">
                     <div className="category">
@@ -914,7 +913,7 @@ export class Home2_mainpage extends Component {
                 <div className="featured-imagebox featured-imagebox-portfolio style2">
                   {/* featured-thumbnail */}
                   <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="image" />
+                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
                   </div>{/* featured-thumbnail end*/}
                   <div className="featured-content">
                     <div className="category">
@@ -940,7 +939,7 @@ export class Home2_mainpage extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-01">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="image" />
+                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -949,7 +948,7 @@ export class Home2_mainpage extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-02">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="image" />
+                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -958,7 +957,7 @@ export class Home2_mainpage extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-03">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="image" />
+                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -967,7 +966,7 @@ export class Home2_mainpage extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-04">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="image" />
+                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -976,7 +975,7 @@ export class Home2_mainpage extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-05">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="image" />
+                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -1005,7 +1004,7 @@ export class Home2_mainpage extends Component {
               <div className="ttm-box-col-wrapper">
                 <div className="featured-imagebox featured-imagebox-blog">
                   <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                    <img className="img-fluid" alt="plc" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
                     <div className="ttm-blog-overlay-iconbox">
                       <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
                     </div>
@@ -1034,7 +1033,7 @@ export class Home2_mainpage extends Component {
               <div className="ttm-box-col-wrapper">
                 <div className="featured-imagebox featured-imagebox-blog">
                   <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                    <img className="img-fluid" alt="plc" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
                     <div className="ttm-blog-overlay-iconbox">
                       <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
                     </div>
@@ -1063,7 +1062,7 @@ export class Home2_mainpage extends Component {
               <div className="ttm-box-col-wrapper">
                 <div className="featured-imagebox featured-imagebox-blog">
                   <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
                     <div className="ttm-blog-overlay-iconbox">
                       <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
                     </div>
@@ -1092,7 +1091,7 @@ export class Home2_mainpage extends Component {
               <div className="ttm-box-col-wrapper">
                 <div className="featured-imagebox featured-imagebox-blog">
                   <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
                     <div className="ttm-blog-overlay-iconbox">
                       <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
                     </div>
