@@ -367,7 +367,7 @@ export class Home extends Component {
                   </div>
                 </div>
                 {/* Responsive View image */}
-                <img src="https://via.placeholder.com/1200X628/444444.jpg" className="img-fluid ttm-equal-height-image" alt="col-bgimage-3" loading='lazy' />
+                <img src="images/gallery/g3.webp" className="img-fluid ttm-equal-height-image" alt="col-bgimage-3" loading='lazy' />
               </div>
               <div className="col-lg-9">
                 <div className="ttm-bgcolor-skincolor ttm-bg ttm-col-bgcolor-yes ttm-right-span">
@@ -450,7 +450,7 @@ export class Home extends Component {
                                 <div className="grey-border res-991-mt-30 text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="crane.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
+                                    <img className="img-fluid grey-boder" src="images/gallery/g3.webp" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -464,7 +464,7 @@ export class Home extends Component {
                                 <div className="grey-border text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
+                                    <img className="img-fluid grey-boder" src="images/gallery/g3.webp" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -536,7 +536,7 @@ export class Home extends Component {
                                 <div className="grey-border res-991-mt-30 text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
+                                    <img className="img-fluid grey-boder" src="images/gallery/g3.webp" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -550,7 +550,7 @@ export class Home extends Component {
                                 <div className="grey-border text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
+                                    <img className="img-fluid grey-boder" src="images/gallery/g3.webp" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -622,7 +622,7 @@ export class Home extends Component {
                                 <div className="grey-border res-991-mt-30 text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" loading='lazy' />
+                                    <img className="img-fluid grey-boder" src="images/gallery/g3.webp" title="single-img-three" alt="single-img-three" loading='lazy' />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
@@ -707,7 +707,7 @@ export class Home extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-01">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
+                          <img className="img-fluid" src="images/home-bg.webp" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -716,7 +716,7 @@ export class Home extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-02">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
+                          <img className="img-fluid" src="images/home-bg.webp" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -725,7 +725,7 @@ export class Home extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-03">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
+                          <img className="img-fluid" src="images/home-bg.webp" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -734,7 +734,7 @@ export class Home extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-04">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
+                          <img className="img-fluid" src="images/home-bg.webp" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
@@ -743,7 +743,7 @@ export class Home extends Component {
                     <div className="client-box ttm-box-view-boxed-logo">
                       <div className="client">
                         <div className="ttm-client-logo-tooltip" data-tooltip="client-05">
-                          <img className="img-fluid" src="https://via.placeholder.com/94X47/444444.png" alt="plc" loading='lazy' />
+                          <img className="img-fluid" src="images/home-bg.webp" alt="plc" loading='lazy' />
                         </div>
                       </div>
                     </div>
