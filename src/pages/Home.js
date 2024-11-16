@@ -7,9 +7,10 @@ import FadeIn from 'react-fade-in';
 
 import Banner from '../components/Banner';
 import Header from '../components/Header';
+import Portfolio from '../components/Portfolio';
 
 
-export class Home2 extends Component {
+export class Home extends Component {
   render() {
     var slick_slider = {
       dots: false,
@@ -52,6 +53,7 @@ export class Home2 extends Component {
         }
       }]
     };
+
     return (
       <div className="site-main">
         <Header />
@@ -62,7 +64,7 @@ export class Home2 extends Component {
               <div className="col-lg-6 res-991-text-center res-991-mb-40">
                 {/* ttm_single_image-wrapper */}
                 <div className="ttm_single_image-wrapper">
-                  <img className="img-fluid" src="images/crane.jpg" title="single-img-two" alt="single-img-two" loading="lazy" />
+                  <img className="img-fluid" src="images/gallery/g11.webp" title="single-img-two" alt="single-img-two" loading="lazy" />
                 </div>{/* ttm_single_image-wrapper end */}
               </div>
               <div className="col-lg-6">
@@ -636,144 +638,7 @@ export class Home2 extends Component {
           </div>
         </section>
         {/* tab section end */}
-        {/* testimonial section */}
-        <section className="ttm-row bottomzero-padding-section ttm-bgcolor-grey ttm-bg ttm-bgimage-yes bg-img8 clearfix">
-          <div className="ttm-row-wrapper-bg-layer ttm-bg-layer" />
-          <div className="container-xl">
-            <div className="row">{/* row */}
-              <div className="col-lg-6">
-                <div className="position-relative z-1">{/* spacing-2 */}
-                  {/* section title */}
-                  <div className="section-title with-desc clearfix">
-                    <div className="title-header">
-                      <h5>About us</h5>
-                      <h2 className="title">We deal with the aspects of professional <span>IT Services</span></h2>
-                    </div>
-                  </div>{/* section title end */}
-                  <div className="testimonial-slide style1 box-sahdow ttm-bgcolor-white col-bg-img-four">
-                    <Slider className="row slick_slider" arrows={false} dots={true}>
-                      <div className="col-lg-12">
-                        <div className="testimonials text-center">
-                          <div className="testimonial-content">{/* testimonials-content */}
-                            <div className="testimonial-avatar">
-                              <div className="testimonial-img">{/* testimonials-img */}
-                                <img className="img-center" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" loading='lazy' />
-                              </div>
-                            </div>
-                            <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
-                            <div className="ttm-ratting-star">
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                            </div>
-                            <div className="testimonial-caption">{/* testimonials-caption */}
-                              <h6>Victor Williamson</h6>
-                              <label>Web Devloper</label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="testimonials text-center">
-                          <div className="testimonial-content">{/* testimonials-content */}
-                            <div className="testimonial-avatar">
-                              <div className="testimonial-img">{/* testimonials-img */}
-                                <img className="img-center lazyloaded" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" loading='lazy' />
-                              </div>
-                            </div>
-                            <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
-                            <div className="ttm-ratting-star">
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                            </div>
-                            <div className="testimonial-caption">{/* testimonials-caption */}
-                              <h6>Victor Williamson</h6>
-                              <label>Web Devloper</label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="testimonials text-center">
-                          <div className="testimonial-content">{/* testimonials-content */}
-                            <div className="testimonial-avatar">
-                              <div className="testimonial-img">{/* testimonials-img */}
-                                <img className="img-center lazyloaded" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" loading='lazy' />
-                              </div>
-                            </div>
-                            <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
-                            <div className="ttm-ratting-star">
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                              <i className="fa fa-star" />
-                            </div>
-                            <div className="testimonial-caption">{/* testimonials-caption */}
-                              <h6>Victor Williamson</h6>
-                              <label>Web Devloper</label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Slider>
 
-                  </div>
-                  {/* separator */}
-                  <div className="separator">
-                    <div className="sep-line" />
-                  </div>
-                  {/* separator END*/}
-                  <div className="card border-0">
-                    <div className="card-body">
-                      {/* featured-icon-box */}
-                      <div className="featured-icon-box style2 left-icon icon-align-top">
-                        <div className="featured-icon">{/* featured-icon */}
-                          <div className="ttm-icon ttm-textcolor-skincolor ttm-icon_element-size-lg">
-                            <i className="flaticon flaticon-call" />
-                          </div>
-                        </div>
-                        <div className="featured-content">
-                          <div className="featured-desc">{/* featured desc */}
-                            <p>Need a service &amp; ready to book? Call us</p>
-                          </div>
-                          <div className="featured-title">{/* featured title */}
-                            <h5>Toll Free Number: <strong className="ttm-textcolor-skincolor">1800 1245 7890</strong></h5>
-                          </div>
-                        </div>
-                      </div>{/* featured-icon-box END*/}
-                    </div>
-                  </div>
-                </div>{/* spacing-2 END */}
-              </div>
-              <div className="col-lg-6">
-                <div className="position-relative res-991-mt-30">
-                  {/* ttm_single_image-wrapper */}
-                  <div className="ttm_single_image-wrapper text-right">
-                    <img className="img-fluid" src="https://via.placeholder.com/434X668/444444.jpg" title="single-img-four" alt="single-img-four" loading='lazy' />
-                  </div>{/* ttm_single_image-wrapper end */}
-                  <div className="ttm-highlight-fid-style-1">
-                    {/*ttm-fid*/}
-                    <div className="ttm-fid inside without-icon">
-                      <div className="ttm-fid-contents text-left">
-                        <h4 className="ttm-fid-inner ttm-textcolor-skincolor">
-                          <CountUp start={0} end={25} duration={30} />
-                        </h4>
-                        <h3 className="ttm-fid-title">Years of Experience IT Bussiness </h3>
-                      </div>
-                    </div>{/* ttm-fid end*/}
-                  </div>
-                </div>
-              </div>
-            </div>{/* row end */}
-          </div>
-        </section>
-        {/* testimonial section end */}
         {/* first-row-title-section */}
         <section className="ttm-row second-row-title-section mt_90 ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes bg-img9 clearfix">
           <div className="ttm-row-wrapper-bg-layer ttm-bg-layer" />
@@ -826,111 +691,9 @@ export class Home2 extends Component {
                 </div>{/* section title end */}
               </div>
             </div>
-            {/* row */}
-            <div className="row multi-columns-row ttm-boxes-spacing-10px ttm-bgcolor-white">
-              <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-portfolio style2">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
-                  </div>{/* featured-thumbnail end*/}
-                  <div className="featured-content">
-                    <div className="category">
-                      <p>Business , Campaign</p>
-                    </div>
-                    <div className="featured-title">
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
-                    </div>
-                  </div>
-                </div>{/* featured-imagebox */}
-              </div>
-              <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-portfolio style2">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
-                  </div>{/* featured-thumbnail end*/}
-                  <div className="featured-content">
-                    <div className="category">
-                      <p>Campaign , Technology</p>
-                    </div>
-                    <div className="featured-title">
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
-                    </div>
-                  </div>
-                </div>{/* featured-imagebox */}
-              </div>
-              <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-portfolio style2">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
-                  </div>{/* featured-thumbnail end*/}
-                  <div className="featured-content">
-                    <div className="category">
-                      <p>Corporate , Workshop</p>
-                    </div>
-                    <div className="featured-title">
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
-                    </div>
-                  </div>
-                </div>{/* featured-imagebox */}
-              </div>
-              <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-portfolio style2">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
-                  </div>{/* featured-thumbnail end*/}
-                  <div className="featured-content">
-                    <div className="category">
-                      <p>Innovation , Technology</p>
-                    </div>
-                    <div className="featured-title">
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
-                    </div>
-                  </div>
-                </div>{/* featured-imagebox */}
-              </div>
-              <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-portfolio style2">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
-                  </div>{/* featured-thumbnail end*/}
-                  <div className="featured-content">
-                    <div className="category">
-                      <p>Corporate</p>
-                    </div>
-                    <div className="featured-title">
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
-                    </div>
-                  </div>
-                </div>{/* featured-imagebox */}
-              </div>
-              <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-portfolio style2">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img className="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="plc" loading='lazy' />
-                  </div>{/* featured-thumbnail end*/}
-                  <div className="featured-content">
-                    <div className="category">
-                      <p>Technology , Workshop</p>
-                    </div>
-                    <div className="featured-title">
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
-                    </div>
-                  </div>
-                </div>{/* featured-imagebox */}
-              </div>
-            </div>{/* row end */}
+            {/* portfolio */}
+            <Portfolio />
+            {/* roportfoliow end */}
           </div>
         </section>
         {/* portfolio-section end */}
@@ -991,145 +754,10 @@ export class Home2 extends Component {
           </div>
         </section>
         {/* our-partner-section end */}
-        {/* blog-section */}
-        <section className="ttm-row blog-section clearfix">
-          <div className="container-xl">
-            <div className="row">
-              <div className="col-md-12">
-                {/* section title */}
-                <div className="section-title text-center with-desc clearfix">
-                  <div className="title-header">
-                    <h5>Our Blog</h5>
-                    <h2 className="title">Check Out Our <span>Latest News</span></h2>
-                  </div>
-                </div>{/* section title end */}
-              </div>
-            </div>
-            <Slider className="row slick_slider ttm-boxes-spacing-30px" {...slick_slider} slidesToShow={3}>
-              <div className="ttm-box-col-wrapper">
-                <div className="featured-imagebox featured-imagebox-blog">
-                  <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="plc" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
-                    <div className="ttm-blog-overlay-iconbox">
-                      <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
-                    </div>
-                    <div className="ttm-box-view-overlay" />
-                  </div>
-                  <div className="featured-content">{/* featured-content */}
-                    <div className="ttm-box-post-date">{/* ttm-box-post-date */}
-                      <span className="ttm-entry-date">
-                        <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">17<span className="entry-month entry-year">Apr</span></time>
-                      </span>
-                    </div>
-                    <div className="featured-title">{/* featured-title */}
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>You Must Try 20 Secret Of Digital Transform</a></h5>
-                    </div>
-                    <div className="post-meta">{/* post-meta */}
-                      <span className="ttm-meta-line"><i className="fa fa-comments" />2,comments</span>
-                      <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
-                    </div>
-                    <div className="featured-desc">{/* featured-description */}
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
-                    </div>
-                    <a className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20">Read More <i className="ti ti-angle-double-right" /></a>
-                  </div>
-                </div>
-              </div>
-              <div className="ttm-box-col-wrapper">
-                <div className="featured-imagebox featured-imagebox-blog">
-                  <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="plc" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
-                    <div className="ttm-blog-overlay-iconbox">
-                      <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
-                    </div>
-                    <div className="ttm-box-view-overlay" />
-                  </div>
-                  <div className="featured-content">{/* featured-content */}
-                    <div className="ttm-box-post-date">{/* ttm-box-post-date */}
-                      <span className="ttm-entry-date">
-                        <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">12<span className="entry-month entry-year">Dec</span></time>
-                      </span>
-                    </div>
-                    <div className="featured-title">{/* featured-title */}
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Define World Best IT Solution Technology</a></h5>
-                    </div>
-                    <div className="post-meta">{/* post-meta */}
-                      <span className="ttm-meta-line"><i className="fa fa-comments" />3,comments</span>
-                      <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
-                    </div>
-                    <div className="featured-desc">{/* featured-description */}
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
-                    </div>
-                    <a className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="single_blog">Read More <i className="ti ti-angle-double-right" /></a>
-                  </div>
-                </div>
-              </div>
-              <div className="ttm-box-col-wrapper">
-                <div className="featured-imagebox featured-imagebox-blog">
-                  <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
-                    <div className="ttm-blog-overlay-iconbox">
-                      <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
-                    </div>
-                    <div className="ttm-box-view-overlay" />
-                  </div>
-                  <div className="featured-content">{/* featured-content */}
-                    <div className="ttm-box-post-date">{/* ttm-box-post-date */}
-                      <span className="ttm-entry-date">
-                        <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">22<span className="entry-month entry-year">May</span></time>
-                      </span>
-                    </div>
-                    <div className="featured-title">{/* featured-title */}
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>10 PHP Frameworks You Need To Use Anywhere</a></h5>
-                    </div>
-                    <div className="post-meta">{/* post-meta */}
-                      <span className="ttm-meta-line"><i className="fa fa-comments" />1,comments</span>
-                      <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
-                    </div>
-                    <div className="featured-desc">{/* featured-description */}
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
-                    </div>
-                    <a className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href={process.env.PUBLIC_URL + '/Single_blog'}>Read More <i className="ti ti-angle-double-right" /></a>
-                  </div>
-                </div>
-              </div>
-              <div className="ttm-box-col-wrapper">
-                <div className="featured-imagebox featured-imagebox-blog">
-                  <div className="featured-thumbnail">{/* featured-thumbnail */}
-                    <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" loading='lazy' />
-                    <div className="ttm-blog-overlay-iconbox">
-                      <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
-                    </div>
-                    <div className="ttm-box-view-overlay" />
-                  </div>
-                  <div className="featured-content">{/* featured-content */}
-                    <div className="ttm-box-post-date">{/* ttm-box-post-date */}
-                      <span className="ttm-entry-date">
-                        <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">04<span className="entry-month entry-year">Aug</span></time>
-                      </span>
-                    </div>
-                    <div className="featured-title">{/* featured-title */}
-                      <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Digital Conference Of IT Tech Events in 2019</a></h5>
-                    </div>
-                    <div className="post-meta">{/* post-meta */}
-                      <span className="ttm-meta-line"><i className="fa fa-comments" />4,comments</span>
-                      <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
-                    </div>
-                    <div className="featured-desc">{/* featured-description */}
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
-                    </div>
-                    <a href={process.env.PUBLIC_URL + '/Single_blog'} className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20">Read More <i className="ti ti-angle-double-right" /></a>
-                  </div>
-                </div>
-              </div>
-            </Slider>
-          </div>
-        </section>
-        {/* blog-section end */}
       </div>
 
     )
   }
 }
 
-export default Home2;
+export default Home;
