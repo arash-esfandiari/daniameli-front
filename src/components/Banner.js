@@ -4,7 +4,7 @@ import { MDBAnimation, MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCar
 
 import { Link } from 'react-router-dom'
 
-export class CarouselPage2 extends Component {
+export class Banner extends Component {
     render() {
         return (
             <MDBContainer fluid>
@@ -90,4 +90,4 @@ export class CarouselPage2 extends Component {
     }
 }
 
-export default CarouselPage2;
+export default Banner;

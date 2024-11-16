@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Menu } from './menu';
-import Mobilemenu from './Mobile_menu';
-import '../../index.css'
+import { Menu } from './Menu';
+import Mobilemenu from './MobileMenu';
 import { Link } from 'react-router-dom';
 
 export class Header extends Component {

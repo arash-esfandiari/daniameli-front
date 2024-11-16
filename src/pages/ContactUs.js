@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../layout/Header';
+import Header from '../components/Header';
 import emailjs from 'emailjs-com';
 
 const SERVICE_ID = 'your_service_id';

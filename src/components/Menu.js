@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { createBrowserHistory } from 'history';
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export class Menu extends Component {
     render() {
         return (
             <nav id="menu" role="navigation" className="menu">
                 <ul>
-                    <li className="menu-hasdropdown"><a>Foundry Equipment</a>
+                    <li className="menu-hasdropdown"><a href='./'>Foundry Equipment</a>
                         <ul className="menu-dropdown">
                             <li><Link to='/'>Induction Furnaces</Link></li>
                             <li><Link to='/'>Electric Arc Furnaces</Link></li>
@@ -19,18 +18,18 @@ export class Menu extends Component {
                             <li><Link to='/'>Mixers</Link></li>
                         </ul>
                     </li>
-                    <li className="menu-hasdropdown"><a>Rolling Mill Lines</a>
+                    <li className="menu-hasdropdown"><a href='./'>Rolling Mill Lines</a>
                         <ul className="menu-dropdown">
                             <li><Link to={'/'}>Hot Rolling Mill</Link></li>
                             <li><Link to={'/'}>Cold Rolling Mill</Link></li>
                         </ul>
                     </li>
-                    <li className="menu-hasdropdown"><a>Industrial Equipment</a>
+                    <li className="menu-hasdropdown"><a href='./'>Industrial Equipment</a>
                         <ul className="menu-dropdown">
                             <li><Link to={'/'}>Industrial Equipment</Link></li>
                         </ul>
                     </li>
-                    <li className="menu-hasdropdown"><a>Raw Material</a>
+                    <li className="menu-hasdropdown"><a href='./'>Raw Material</a>
                         <ul className="menu-dropdown">
                             <li><Link to={'/'}>Raw Material</Link></li>
                         </ul>

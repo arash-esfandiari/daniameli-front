@@ -192,35 +192,35 @@
     4.Row-Bg-Image  
 ------------------------*/
 .bg-img1 {
-  background-image: url("https://via.placeholder.com/1920X194/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img2 {
-  background-image: url("https://via.placeholder.com/1920X485/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img3 {
-  background-image: url("../images/bg-image/row-bgimage-3.png");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img4 {
-  background-image: url("https://via.placeholder.com/1920X622/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img5 {
-  background-image: url("https://via.placeholder.com/1920X283/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -239,42 +239,42 @@
 }
 
 .bg-img7 {
-  background-image: url("https://via.placeholder.com/1920X952/888888.png");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img8 {
-  background-image: url("../images/bg-image/row-bgimage-8.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img9 {
-  background-image: url("https://via.placeholder.com/1920X519/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img10 {
-  background-image: url("https://via.placeholder.com/1920X606/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img11 {
-  background-image: url("https://via.placeholder.com/1920X564/888888.png");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-img12 {
-  background-image: url("https://via.placeholder.com/1920X820/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -288,7 +288,7 @@
 }
 
 .col-bg-img-one.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
-  background-image: url("https://via.placeholder.com/1533X720/888888.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -296,35 +296,35 @@
 }
 
 .col-bg-img-two.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
-  background-image: url("https://via.placeholder.com/584X416/444444.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .col-bg-img-three.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
-  background-image: url("https://via.placeholder.com/1200X628/444444.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .col-bg-img-four {
-  background-image: url("https://via.placeholder.com/566X506/444444.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .col-bg-img-five.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
-  background-image: url("https://via.placeholder.com/566X506/444444.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .col-bg-img-six.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
-  background-image: url("https://via.placeholder.com/566X506/444444.jpg");
+  background-image: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

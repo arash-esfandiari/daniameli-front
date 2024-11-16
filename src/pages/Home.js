@@ -5,8 +5,11 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import FadeIn from 'react-fade-in';
 
+import Banner from '../components/Banner';
+import Header from '../components/Header';
 
-export class Home2_mainpage extends Component {
+
+export class Home2 extends Component {
   render() {
     var slick_slider = {
       dots: false,
@@ -51,6 +54,8 @@ export class Home2_mainpage extends Component {
     };
     return (
       <div className="site-main">
+        <Header />
+        <Banner />
         <section className="ttm-row aboutus-section-style2 clearfix">
           <div className="container-xl">
             <div className="row no-gutters align-items-center">{/* row */}
@@ -1127,4 +1132,4 @@ export class Home2_mainpage extends Component {
   }
 }
 
-export default Home2_mainpage;
+export default Home2;
