@@ -19,13 +19,13 @@
     z-index: 9;
     transition: all .5s;
 }
-.ttm-header-style-01 {
-    .site-branding img{max-height:45px}
-    .ttm-stickable-header.fixed-header {        
-        .site-header-menu, .menu {height: 70px;}
-        .site-branding, .ttm-right-header, .menu > ul > li > a {height: 70px; line-height: 70px;}
-    }
-}
+// .ttm-header-style-01 {
+//     .site-branding img{max-height:45px}
+//     .ttm-stickable-header.fixed-header {        
+//         .site-header-menu, .menu {height: 70px;}
+//         .site-branding, .ttm-right-header, .menu > ul > li > a {height: 70px; line-height: 70px;}
+//     }
+// }
 .ttm-header-style-02 .ttm-stickable-header {border-top: 1px solid #eaeff5;}
 .ttm-header-wrap {
     position: relative;

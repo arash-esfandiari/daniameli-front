@@ -53,7 +53,7 @@ export class Header extends Component {
                                 {/* site-branding */}
                                 <div className="site-branding" >
                                     <Link to='/'>
-                                        <img className='img-fluid' alt="logo" src="images/txt-logo.png" />
+                                        <img className='img-fluid' alt="logo" src="images/logo.webp" />
                                     </Link>
                                 </div>
                                 {/* site-branding end*/}
