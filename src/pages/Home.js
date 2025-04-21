@@ -73,7 +73,7 @@ export class Home extends Component {
                   <div className="section-title with-desc clearfix">
                     <div className="title-header">
                       <h5>About Daniameli's Management</h5>
-                      <h2 className="title">Daniameli With more than 25 years of <span>experience</span></h2>
+                      <h2 className="title">With more than 30 years of <span>experience</span></h2>
                     </div>
                     <div className="title-desc">
                       <p>Expertise in metallurgy related products. Metallurgy such as sales and installation is not only a profession but a passion at Daniameli. We have a tendency to believe that the perfect equipment can output the perfect molten metal, and therefore the perfect product. Thus, a good furnace and professional installation is key.</p>

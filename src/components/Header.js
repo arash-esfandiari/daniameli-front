@@ -53,7 +53,7 @@ export class Header extends Component {
                                 {/* site-branding */}
                                 <div className="site-branding" >
                                     <Link to='/'>
-                                        <img className='img-fluid' alt="logo" src="images/logo.webp" />
+                                        <img className='img-fluid' alt="logo" src="images/logo3.webp" />
                                     </Link>
                                 </div>
                                 {/* site-branding end*/}
@@ -78,7 +78,8 @@ export class Header extends Component {
                                                     </form>
                                                 </div>}
                                             </li>
-                                            <li className="ttm-header-cart-link ttm-bgcolor-darkgrey ttm-textcolor-white"><a><i className="ti-shopping-cart" /><span>0</span></a></li>
+                                            <li >
+                                            </li>
                                         </ul>
                                     </div>
                                     <Menu />
