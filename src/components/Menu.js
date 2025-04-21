@@ -48,7 +48,13 @@ const menuData = [
     {
         title: 'Raw Material',
         link: './',
-        subMenu: [{ title: 'Raw Material', link: '/' }],
+        subMenu: [
+            { title: 'Nickel', link: '/' },
+            { title: 'Ferromanganese', link: '/' },
+            { title: 'Ferrochrome', link: '/' },
+            { title: 'Ferrovanadium', link: '/' },
+            { title: 'Ferroalloys', link: '/' }
+        ],
     },
     {
         title: 'Reagents',
