@@ -23,6 +23,7 @@ const menuData = [
         subMenu: [
             { title: 'Hot Rolling Mill', link: '/' },
             { title: 'Cold Rolling Mill', link: '/' },
+            { title: 'Bending Machines', link: '/' },
         ],
     },
     {
@@ -31,14 +32,17 @@ const menuData = [
         subMenu: [
             { title: 'Industrial Equipment', link: '/' },
             { title: 'Spare Parts', link: '/' },
-            // { title: 'Hydraulic and Pneumatic Equipment', link: '/' },
-            // { title: 'Industrial Valves', link: '/' },
-            // { title: 'Industrial Pumps', link: '/' },
-            // { title: 'Heat Exchangers', link: '/' },
-            // { title: 'Compressors', link: '/' },
-            // { title: 'Fans and Blowers', link: '/' },
-            // { title: 'Conveyors', link: '/' },
-            // { title: 'Industrial Ovens', link: '/' },
+            { title: 'Food and Dairy Equipment', link: '/' },
+            { title: 'Electromotors', link: '/about' },
+            { title: 'Drivers and Inverters', link: '/about' },
+            { title: 'Electropumps', link: '/about' },
+            { title: 'Hydraulic and Pneumatic Equipment', link: '/' },
+            { title: 'Industrial Valves', link: '/' },
+            { title: 'Industrial Pumps', link: '/' },
+            { title: 'Heat Exchangers', link: '/' },
+            { title: 'Compressors', link: '/' },
+            { title: 'Fans and Blowers', link: '/' },
+            { title: 'Industrial Ovens', link: '/' },
         ],
     },
     {
@@ -47,20 +51,10 @@ const menuData = [
         subMenu: [{ title: 'Raw Material', link: '/' }],
     },
     {
-        title: 'Electrical Equipment',
+        title: 'Reagents',
         link: null,
         subMenu: [
-            { title: 'Electromotors', link: '/about' },
-            { title: 'Drivers and Inverters', link: '/about' },
-            { title: 'Electropumps', link: '/about' },
-        ],
-    },
-    {
-        title: 'More',
-        link: null,
-        subMenu: [
-            { title: 'Reference Standards (Chemical Reagents)', link: '/' },
-            { title: 'Food and Dairy Equipment', link: '/' },
+            { title: 'Reference Standards', link: '/' },
         ],
     },
     {
