@@ -92,10 +92,10 @@ export class Home extends Component {
                         </div>
                         <div className="featured-content">{/*  featured-content */}
                           <div className="featured-title">{/*  featured-title */}
-                            <h5>Quick Resppnse and Delivery</h5>
+                            <h5>Rapid Response and Delivery</h5>
                           </div>
                           <div className="featured-desc">{/*  featured-desc */}
-                            <p>Quickly productivate just in time strategy.</p>
+                            <p>Swift procurement and expedited delivery solutions for critical industrial equipment.</p>
                           </div>
                         </div>
                       </div>{/*  featured-icon-box END */}
@@ -170,7 +170,7 @@ export class Home extends Component {
                           <h2 className="title">Trusted by 100+<span>Happy Customers</span></h2>
                         </div>
                         <div className="title-desc">
-                          <p>We listen. We advise. We design, together. Happy customers and ongoing relationships are what we strive for. Success is measured by results, the most important being how our clients feel about their experience with us. These reviews we’re onto something.</p>
+                          <p>We listen. We analyze. We deliver, together. Satisfied customers and enduring partnerships are what we strive for. Success is measured by operational excellence, with the most important metric being how our clients benefit from our comprehensive industrial solutions.</p>
                         </div>
                       </div>{/* section title end */}
                       <div className="row pt-3">
@@ -199,7 +199,7 @@ export class Home extends Component {
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                               <div className="featured-title">{/*  featured-title */}
-                                <h5 className="fw-500">World Class Architect</h5>
+                                <h5 className="fw-500">Engineering Excellence</h5>
                               </div>
                             </div>
                           </div>{/*  featured-icon-box END */}
@@ -214,7 +214,7 @@ export class Home extends Component {
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                               <div className="featured-title">{/*  featured-title */}
-                                <h5 className="fw-500">World Class Design</h5>
+                                <h5 className="fw-500">Premium Equipment Solutions</h5>
                               </div>
                             </div>
                           </div>{/*  featured-icon-box END */}
@@ -265,7 +265,7 @@ export class Home extends Component {
                               <h4 className="ttm-fid-inner">
                                 <CountUp start={0} end={578} duration={30} />
                               </h4>
-                              <h3 className="ttm-fid-title">Cloud Designs</h3>
+                              <h3 className="ttm-fid-title">Equipment Installations</h3>
                             </div>
                           </div>{/* ttm-fid end*/}
                         </div>
@@ -287,7 +287,7 @@ export class Home extends Component {
                 <div className="section-title with-desc text-center clearfix">
                   <div className="title-header">
                     <h5>Our Services</h5>
-                    <h2 className="title">We run all kinds of IT services with 20 years of <span className="ttm-textcolor-white">experience</span></h2>
+                    <h2 className="title">We deliver comprehensive supply and equipment solutions with over 25 years of <span className="ttm-textcolor-white">expertise</span></h2>
                   </div>
                 </div>{/* section title end */}
               </div>
@@ -305,10 +305,10 @@ export class Home extends Component {
                   </div>{/* featured-icon */}
                   <div className="featured-content">{/* featured-content */}
                     <div className="featured-title">
-                      <h5>Experience Design</h5>{/* featured-title */}
+                      <h5>Metallurgy Solutions</h5>{/* featured-title */}
                     </div>
                     <div className="featured-desc">{/* featured-description */}
-                      <p>UX team create web solutions that are both intuitively tailored to match our clients’ specific tasks.</p>
+                      <p>Our metallurgy experts deliver precision-engineered furnace systems and comprehensive solutions tailored to your industrial requirements.</p>
                     </div>
                     <a className="ttm-btn ttm-btn-size-sm btn-inline mt-3">Read More <i className="ti ti-angle-double-right" /></a>
                   </div>{/* featured-content END*/}
@@ -324,10 +324,10 @@ export class Home extends Component {
                   </div>{/* featured-icon */}
                   <div className="featured-content">{/* featured-content */}
                     <div className="featured-title">
-                      <h5>Digital Services</h5>{/* featured-title */}
+                      <h5>Industrial Equipment</h5>{/* featured-title */}
                     </div>
                     <div className="featured-desc">{/* featured-description */}
-                      <p>Digital solutions have transformed the world’s customer expectations and the profitable growths.</p>
+                      <p>State-of-the-art industrial machinery and equipment solutions that enhance operational efficiency and drive profitable growth.</p>
                     </div>
                     <a className="ttm-btn ttm-btn-size-sm btn-inline mt-3">Read More <i className="ti ti-angle-double-right" /></a>
                   </div>{/* featured-content END*/}
@@ -343,10 +343,10 @@ export class Home extends Component {
                   </div>{/* featured-icon */}
                   <div className="featured-content">{/* featured-content */}
                     <div className="featured-title">
-                      <h5>Content Engineering</h5>{/* featured-title */}
+                      <h5>Supply Chain Excellence</h5>{/* featured-title */}
                     </div>
                     <div className="featured-desc">{/* featured-description */}
-                      <p>We are here in the fields of organizing bridging the gaps between strategy and the development.</p>
+                      <p>Comprehensive supply chain management bridging the gap between procurement strategy and seamless delivery execution.</p>
                     </div>
                     <a className="ttm-btn ttm-btn-size-sm btn-inline mt-3">Read More <i className="ti ti-angle-double-right" /></a>
                   </div>{/* featured-content END*/}
@@ -376,8 +376,8 @@ export class Home extends Component {
                   </div>
                   <div className="layer-content position-relative">
                     <div className="spacing-6 ttm-textcolor-white">
-                      <h3 className="mb-2">We Take Care of Your Technology Focus on Your Business</h3>
-                      <p className="mb-0">Since 2007 we have been a visionary and a reliable software engineering partner for world-class brands. We are a boutique digital transformation consultancy and software development.</p>
+                      <h3 className="mb-2">We Handle Your Equipment Procurement - You Focus on Production</h3>
+                      <p className="mb-0">Since 1998, Daniameli has been a visionary and reliable industrial equipment partner for world-class manufacturers. We are a premier supply chain consultancy specializing in comprehensive metallurgy and industrial solutions.</p>
                     </div>
                   </div>
                 </div>
@@ -393,8 +393,8 @@ export class Home extends Component {
                 {/* section title */}
                 <div className="section-title text-center with-desc clearfix">
                   <div className="title-header">
-                    <h5>What We Offer For You</h5>
-                    <h2 className="title">Here are some <span>Milestones </span></h2>
+                    <h5>Industry Expertise</h5>
+                    <h2 className="title">Specialized Solutions for <span>Various Industries</span></h2>
                   </div>
                 </div>{/* section title end */}
               </div>
@@ -406,11 +406,11 @@ export class Home extends Component {
                 <div className="ttm-tabs text-center ttm-tab-style-classic style1">
                   <Tabs defaultIndex={2} onSelect={index => console.log(index)}>{/* tabs */}
                     <TabList className="tabs">
-                      <Tab className="tab" title="Hi-Tech"><span><i className="flaticon flaticon-report" /> Hi-Tech</span></Tab>
-                      <Tab className="tab" title="Media"><span><i className="flaticon flaticon-computer" /> Media</span></Tab>
-                      <Tab className="tab" title="Industrial"><span><i className="flaticon flaticon-system" /> Industrial</span></Tab>
-                      <Tab className="tab" title="Banking"><span><i className="flaticon flaticon-interaction" /> Banking</span></Tab>
-                      <Tab className="tab" title="Medical"><span><i className="flaticon flaticon-analysis" /> Medical</span></Tab>
+                      <Tab className="tab" title="Foundry"><span><i className="flaticon flaticon-report" /> Foundry</span></Tab>
+                      <Tab className="tab" title="Rolling Mills"><span><i className="flaticon flaticon-computer" /> Rolling Mills</span></Tab>
+                      <Tab className="tab" title="Industrial Equipment"><span><i className="flaticon flaticon-system" /> Industrial Equipment</span></Tab>
+                      <Tab className="tab" title="Raw Materials"><span><i className="flaticon flaticon-interaction" /> Raw Materials</span></Tab>
+                      <Tab className="tab" title="Reagents"><span><i className="flaticon flaticon-analysis" /> Reagents</span></Tab>
                     </TabList>
                     <div className="box-shadow content-tab">
                       <FadeIn>
@@ -419,21 +419,21 @@ export class Home extends Component {
                             <div className="row">
                               <div className="col-lg-6">
                                 <div className="text-left">
-                                  <h3 className="title fs-30">Reason to Reject following Drawbacks</h3>
-                                  <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s.</p>
-                                  <p>Sometimes you get into it for the wrong reasons, &amp; eventually it hits you on the face. These reasons can be drawbak but an eye opener too. These reasons can be drawbak but an eye opener too.</p>
+                                  <h3 className="title fs-30">Industry-Leading Equipment Solutions</h3>
+                                  <p>Industrial manufacturing plays a crucial role in the global economy, requiring sophisticated equipment for optimal performance. Our comprehensive solutions transform operational capabilities.</p>
+                                  <p>From foundry operations to rolling mills, we deliver cutting-edge technology that ensures consistent quality, maximum efficiency, and sustainable growth for your industrial operations.</p>
                                   <ul className="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Complete software platform development </span>
+                                      <span className="ttm-list-li-content">Complete equipment installation and commissioning</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Device and field testing for electronics</span>
+                                      <span className="ttm-list-li-content">Comprehensive equipment testing and quality assurance</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
@@ -441,7 +441,7 @@ export class Home extends Component {
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                   </ul>
                                 </div>
@@ -470,21 +470,21 @@ export class Home extends Component {
                               </div>
                               <div className="col-lg-6">
                                 <div className="text-left res-991-mt-30">
-                                  <h3 className="title fs-30">Reason to Reject following Drawbacks</h3>
-                                  <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s.</p>
-                                  <p>Sometimes you get into it for the wrong reasons, &amp; eventually it hits you on the face. These reasons can be drawbak but an eye opener too. These reasons can be drawbak but an eye opener too.</p>
+                                  <h3 className="title fs-30">Industry-Leading Equipment Solutions</h3>
+                                  <p>Industrial manufacturing plays a crucial role in the global economy, requiring sophisticated equipment for optimal performance. Our comprehensive solutions transform operational capabilities.</p>
+                                  <p>From foundry operations to rolling mills, we deliver cutting-edge technology that ensures consistent quality, maximum efficiency, and sustainable growth for your industrial operations.</p>
                                   <ul className="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Complete software platform development </span>
+                                      <span className="ttm-list-li-content">Complete equipment installation and commissioning</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Device and field testing for electronics</span>
+                                      <span className="ttm-list-li-content">Comprehensive equipment testing and quality assurance</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
@@ -492,7 +492,7 @@ export class Home extends Component {
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                   </ul>
                                 </div>
@@ -505,21 +505,21 @@ export class Home extends Component {
                             <div className="row">
                               <div className="col-lg-6">
                                 <div className="text-left">
-                                  <h3 className="title fs-30">Reason to Reject following Drawbacks</h3>
-                                  <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s.</p>
-                                  <p>Sometimes you get into it for the wrong reasons, &amp; eventually it hits you on the face. These reasons can be drawbak but an eye opener too. These reasons can be drawbak but an eye opener too.</p>
+                                  <h3 className="title fs-30">Industry-Leading Equipment Solutions</h3>
+                                  <p>Industrial manufacturing plays a crucial role in the global economy, requiring sophisticated equipment for optimal performance. Our comprehensive solutions transform operational capabilities.</p>
+                                  <p>From foundry operations to rolling mills, we deliver cutting-edge technology that ensures consistent quality, maximum efficiency, and sustainable growth for your industrial operations.</p>
                                   <ul className="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Complete software platform development </span>
+                                      <span className="ttm-list-li-content">Complete equipment installation and commissioning</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Device and field testing for electronics</span>
+                                      <span className="ttm-list-li-content">Comprehensive equipment testing and quality assurance</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
@@ -527,7 +527,7 @@ export class Home extends Component {
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                   </ul>
                                 </div>
@@ -556,21 +556,21 @@ export class Home extends Component {
                               </div>
                               <div className="col-lg-6">
                                 <div className="text-left res-991-mt-30">
-                                  <h3 className="title fs-30">Reason to Reject following Drawbacks</h3>
-                                  <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s.</p>
-                                  <p>Sometimes you get into it for the wrong reasons, &amp; eventually it hits you on the face. These reasons can be drawbak but an eye opener too. These reasons can be drawbak but an eye opener too.</p>
+                                  <h3 className="title fs-30">Industry-Leading Equipment Solutions</h3>
+                                  <p>Industrial manufacturing plays a crucial role in the global economy, requiring sophisticated equipment for optimal performance. Our comprehensive solutions transform operational capabilities.</p>
+                                  <p>From foundry operations to rolling mills, we deliver cutting-edge technology that ensures consistent quality, maximum efficiency, and sustainable growth for your industrial operations.</p>
                                   <ul className="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Complete software platform development </span>
+                                      <span className="ttm-list-li-content">Complete equipment installation and commissioning</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Device and field testing for electronics</span>
+                                      <span className="ttm-list-li-content">Comprehensive equipment testing and quality assurance</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
@@ -578,7 +578,7 @@ export class Home extends Component {
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                   </ul>
                                 </div>
@@ -591,21 +591,21 @@ export class Home extends Component {
                             <div className="row">
                               <div className="col-lg-6">
                                 <div className="text-left">
-                                  <h3 className="title fs-30">Reason to Reject following Drawbacks</h3>
-                                  <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s.</p>
-                                  <p>Sometimes you get into it for the wrong reasons, &amp; eventually it hits you on the face. These reasons can be drawbak but an eye opener too. These reasons can be drawbak but an eye opener too.</p>
+                                  <h3 className="title fs-30">Industry-Leading Equipment Solutions</h3>
+                                  <p>Industrial manufacturing plays a crucial role in the global economy, requiring sophisticated equipment for optimal performance. Our comprehensive solutions transform operational capabilities.</p>
+                                  <p>From foundry operations to rolling mills, we deliver cutting-edge technology that ensures consistent quality, maximum efficiency, and sustainable growth for your industrial operations.</p>
                                   <ul className="ttm-list ttm-list-textsize-medium ttm-list-style-icon pt-15">
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Complete software platform development </span>
+                                      <span className="ttm-list-li-content">Complete equipment installation and commissioning</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Device and field testing for electronics</span>
+                                      <span className="ttm-list-li-content">Comprehensive equipment testing and quality assurance</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
@@ -613,7 +613,7 @@ export class Home extends Component {
                                     </li>
                                     <li>
                                       <i className="fa fa-arrow-circle-right ttm-textcolor-skincolor" />
-                                      <span className="ttm-list-li-content">Practice maturity in hardware, firmware and middleware</span>
+                                      <span className="ttm-list-li-content">Advanced process optimization and control systems</span>
                                     </li>
                                   </ul>
                                 </div>
@@ -656,7 +656,7 @@ export class Home extends Component {
                       <div id="videobox">
                         <i id="close-btn" className="fa fa-times"></i>
                         <div id="video-wrapper">
-                          <iframe width="500" height="500" src="https://www.youtube.com/embed/7e90gBu4pas" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                          <iframe width="500" height="500" src="https://www.youtube.com/embed/7e90gBu4pas" title="Daniameli Industrial Solutions Video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                         </div>
                       </div>
                     </div>
@@ -664,12 +664,12 @@ export class Home extends Component {
                   {/* section-title */}
                   <div className="section-title with-desc text-center clearfix">
                     <div className="title-header">
-                      <h2 className="title">We Provide Outsourced IT Services For Small &amp; <span className="ttm-textcolor-white">Mid-Sized Business</span></h2>
+                      <h2 className="title">We Deliver Comprehensive Industrial Equipment Solutions For <span className="ttm-textcolor-white">Manufacturing Excellence</span></h2>
                     </div>
-                    <div className="title-desc">Appropriate for your specific business, making it easy for<br /> you to have quality IT services. What We Do</div>
+                    <div className="title-desc">Tailored solutions for your specific industrial requirements, making it seamless for<br /> you to achieve operational excellence. What We Provide</div>
                   </div>{/* section-title end */}
                   <div className="mt-5">
-                    <a className="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white">More Services</a>
+                    <a className="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white">Explore Solutions</a>
                   </div>
                 </div>
               </div>
